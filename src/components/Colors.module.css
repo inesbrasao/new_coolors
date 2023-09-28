@@ -1,0 +1,29 @@
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.cor {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+.nomeCor{
+    text-align: center;
+}
+
+.lock {
+    border: none;
+    background-color: transparent;
+}
+
+.lock:hover {
+    box-shadow: 0px 0px 2px 2px;
+    cursor: pointer;
+}
